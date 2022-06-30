@@ -18,6 +18,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 
 renderer.render(scene, camera);
+renderer.setClearAlpha(0);
 
 const loader = new GLTFLoader();
 
