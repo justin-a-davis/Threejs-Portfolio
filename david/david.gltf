@@ -1,0 +1,186 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v3.2.40",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        2
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Object_2",
+      "rotation": [
+        -0.04017467796802521,
+        -0.679277777671814,
+        -0.004194635432213545,
+        0.7327687740325928
+      ],
+      "translation": [
+        65.6532974243164,
+        72.42142486572266,
+        -85.67523193359375
+      ]
+    },
+    {
+      "children": [
+        0
+      ],
+      "name": "rapid.obj.cleaner.materialmerger.gles",
+      "scale": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612
+      ]
+    },
+    {
+      "children": [
+        1
+      ],
+      "name": "Sketchfab_model",
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "material_0",
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.550000011920929,
+          0.550000011920929,
+          0.550000011920929,
+          1
+        ],
+        "metallicFactor": 0.20000000298023224,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.5734756588935852
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ],
+  "images": [
+    {
+      "name": "test_img0",
+      "uri": "david_img0.jpg"
+    },
+    {
+      "name": "test_img1",
+      "uri": "david_img1.png"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 55940,
+      "max": [
+        133.17991638183594,
+        -0.029409529641270638,
+        138.38516235351562
+      ],
+      "min": [
+        -0.016765205189585686,
+        -200.01478576660156,
+        0.010879104025661945
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 55940,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 55940,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 300000,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 671280,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 671280,
+      "byteOffset": 671280
+    },
+    {
+      "buffer": 0,
+      "byteLength": 447520,
+      "byteOffset": 1342560
+    },
+    {
+      "buffer": 0,
+      "byteLength": 600000,
+      "byteOffset": 1790080
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "david_data.bin",
+      "byteLength": 2390080
+    }
+  ]
+}
