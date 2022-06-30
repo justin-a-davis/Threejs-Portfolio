@@ -3,3 +3,18 @@ canvas {
   top: 0;
   left: 0;
 }
+
+.hero, .tools, .contact, footer {
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-content, .tools, .contact, footer {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

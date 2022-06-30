@@ -14,14 +14,14 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
-camera.position.setZ(30);
-camera.position.setX(-3);
+camera.position.setZ(40);
+
 
 renderer.render(scene, camera);
 
 const loader = new GLTFLoader();
 
-let david = new THREE.Group;
+ let david = new THREE.Group;
 
 loader.load(
   'david/david.gltf',
@@ -30,6 +30,7 @@ loader.load(
     scene.add(gltf.scene);
   }
 );
+
 
 const pointLight = new THREE.PointLight(0xffffff);
 scene.add(pointLight);
