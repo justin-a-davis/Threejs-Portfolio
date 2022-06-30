@@ -10,6 +10,13 @@ const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerH
 const initCameraPos = 40;
 camera.position.setZ(initCameraPos);
 
+function updateCamera() {
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+}
+window.addEventListener('resize', updateCamera);
+
 const renderer = new THREE.WebGLRenderer({
   canvas: document.querySelector('#bg')
 });
